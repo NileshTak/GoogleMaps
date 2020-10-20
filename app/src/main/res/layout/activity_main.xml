@@ -12,6 +12,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="4dp"
+        android:visibility="visible"
         android:orientation="horizontal">
 
         <EditText
@@ -30,6 +31,13 @@
             android:layout_marginEnd="2dp"
             android:layout_height="wrap_content"
             android:text="Search" />
+
+        <Button
+            android:id="@+id/B_clear"
+            android:layout_width="wrap_content"
+            android:layout_marginEnd="2dp"
+            android:layout_height="wrap_content"
+            android:text="Clear" />
 
     </LinearLayout>
 
